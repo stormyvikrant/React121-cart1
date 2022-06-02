@@ -1,0 +1,39 @@
+.store {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    margin: auto;
+    gap: 14px;
+
+  
+
+ }
+ 
+ .Cardbox {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border:1px solid gray;
+    margin-top:18px;
+  
+ }
+ .Cardbox:hover{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ 
+ .storeCards>img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+ }
+ 
+
+ .productdetail{
+    font-size: 20px;
+    color:black;
+   
+ }
+ .Cardbox :link{
+text-decoration: none;
+ }
